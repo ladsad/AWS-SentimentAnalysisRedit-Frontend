@@ -1,0 +1,94 @@
+.app-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subreddit-selector {
+  margin: 20px 0;
+  text-align: center;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+select:focus {
+  border-color: #007bff;
+}
+
+.comments-list {
+  margin-top: 20px;
+}
+
+.comment-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.comment-card:hover {
+  transform: translateY(-5px);
+}
+
+.comment-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.comment-card strong {
+  color: #444;
+}
+
+.comment-card .timestamp {
+  font-size: 0.9em;
+  color: #888;
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 1.2em;
+  color: #007bff;
+}
+
+.chart-container {
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.subreddit-selector {
+  margin: 20px;
+}
+
+.comments-list {
+  margin-top: 20px;
+}
+
+.comment-card {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
